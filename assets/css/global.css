@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles Globals */
+    *::-webkit-scrollbar {
+        width: 0px;
+    }
+/* Style sidebar header Start */
+    .sidebar {
+        transition: 0.2s;
+    }
+    .tra-hover {
+        transition: 0.2s;
+    }
+    /* Scroll Menu */
+    .box-menu-scroll::-webkit-scrollbar  {
+        width: 0px;
+    }
+    /* Navbar select Multiideoma start */
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 1px;
+        text-overflow: '';
+    }
+    /* Navbar select Multiideoma end */
+/* Style sidebar header End */
+
+
+/* Styles SIGN IN Start */
+.main-box {
+    height: 100vh;
+}
+.box-image-sing {
+    background-image: url(/assets/img/5vToKr1GodTrNUK.webp) !important;
+    background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.3)),
+    url("/assets/img/image-sing.webp");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom-right-radius: 4%;
+    }
+/* Styles SIGN IN End */
+
+
