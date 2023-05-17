@@ -30,17 +30,19 @@
 
 /* Styles SIGN IN Start */
 .main-box {
-    height: 100vh;
+
 }
-.box-image-sing {
+.box-main-image {
+    height: 100vh;
     background-image: url(/assets/img/5vToKr1GodTrNUK.webp) !important;
     background: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.3)),
     url("/assets/img/image-sing.webp");
         background-position: center;
-        background-size: cover;
         background-repeat: no-repeat;
-        border-bottom-right-radius: 4%;
-    }
+        border-bottom-right-radius: 1%;
+}
+
+
 /* Styles SIGN IN End */
 
 

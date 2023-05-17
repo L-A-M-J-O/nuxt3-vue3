@@ -30,6 +30,7 @@ export default defineNuxtConfig({
   ],
   modules: 
   [ 
+    '@nuxthq/ui',
     'nuxt-icon',
     '@nuxtjs/i18n',
   ],
