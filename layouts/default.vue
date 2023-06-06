@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="container-2xl bg-white dark:bg-gray-900" v-if="!active">
+    <section class="container-2xl bg-white dark:bg-gray-900" v-if="false">
       <div class="main-box">
         <div class="box-main-image">            
             <img
@@ -13,7 +13,7 @@
     </section>
     <section
       class="container-2xl bg-white dark:bg-gray-900 dark:text-white"
-      v-if="active"
+      v-if="true"
     >
       <div class="grid grid-rows-1 grid-flow-col-1">
         <header>
