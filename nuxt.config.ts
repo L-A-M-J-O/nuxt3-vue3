@@ -27,7 +27,13 @@ export default defineNuxtConfig({
     "primevue/resources/primevue.css",
     "primeicons/primeicons.css",
   ],
-  modules: ["nuxt-chatgpt", "@nuxthq/ui", "nuxt-icon", "@nuxtjs/i18n"],
+  modules: [
+    "nuxt-chatgpt",
+    "@nuxthq/ui",
+    "nuxt-icon",
+    "@nuxtjs/i18n",
+    "nuxt-quasar-ui",
+  ],
   i18n: {
     vueI18n: {
       legacy: true,
@@ -186,6 +192,9 @@ export default defineNuxtConfig({
         },
       },
     },
+  },
+  quasar: {
+    /* */
   },
   chatgpt: {
     apiKey: "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",
